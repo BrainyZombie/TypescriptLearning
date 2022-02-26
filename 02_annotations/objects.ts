@@ -15,3 +15,4 @@ const {
     coords: {lat, lng} 
 }: {coords: {lat:number; lng: number}} = profile;
 
+console.log(age, lat, lng);
