@@ -4,9 +4,8 @@ import RepoList from "./RepoList";
 const App = () => {
   return (
     <Provider store={store}>
-      <div>
-        <h1>Hello World</h1>
-      </div>
+      <h3> Search for a repository</h3>
+      <RepoList />
     </Provider>
   );
 };
